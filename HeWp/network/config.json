@@ -4,7 +4,7 @@
   "data": "data.json",
   "logo": {
     "text": "Haitham Shammaa",
-    "file": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/400px-Wikimedia_Foundation_RGB_logo_with_text.svg.png",
+    "file": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/100px-Wikimedia-logo.svg.png",
     "link": "http://www.wikimedia.org/"
   },
   "text": {
@@ -23,8 +23,8 @@
     "hoverBehavior": "dim"
   },
   "informationPanel": {
-    "imageAttribute": false,
-    "groupByEdgeDirection": false
+    "imageAttribute": "Degree",
+    "groupByEdgeDirection": true
   },
   "sigma": {
     "graphProperties": {
