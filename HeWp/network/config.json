@@ -3,23 +3,23 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "text": "",
-    "file": "",
-    "link": ""
+    "text": "Haitham Shammaa",
+    "file": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/400px-Wikimedia_Foundation_RGB_logo_with_text.svg.png",
+    "link": "http://www.wikimedia.org/"
   },
   "text": {
     "title": "",
     "more": "",
-    "intro": "Community interaction of the Hebrew Wikipedia"
+    "intro": "Community interaction at the Hebrew Wikipedia"
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "",
-    "nodeLabel": ""
+    "edgeLabel": "A line represents user-user interaction (talk)",
+    "colorLabel": "Color represents the degree (number of connected users) to each user",
+    "nodeLabel": "A circle represents a user"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Label",
+    "groupSelectorAttribute": "Degree",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
