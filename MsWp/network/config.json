@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Haitham Shammaa",
+    "file": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/100px-Wikimedia-logo.svg.png",
+    "link": "http://www.wikimedia.org/"
+  },
+  "text": {
+    "title": "",
+    "more": "Due to software limitations, only the most frequent 10,000 links are represented. \n\nThe data represents the whole history of the project.",
+    "intro": "Community interaction at the Malay Wikipedia"
+  },
+  "legend": {
+    "edgeLabel": "A line represents user-user interaction (talk)",
+    "colorLabel": "Color represents the degree (number of connected users) to each user",
+    "nodeLabel": "A circle represents a user"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Degree",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "Degree",
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
