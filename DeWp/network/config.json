@@ -13,9 +13,9 @@
     "intro": "Community interaction at the German Wikipedia"
   },
   "legend": {
-    "edgeLabel": "A line represents user-user interaction (talk)",
-    "colorLabel": "Color represents the degree (number of connected users) to each user",
-    "nodeLabel": "A circle represents a user"
+    "edgeLabel": "Each line represents user-user interaction (talk)",
+    "colorLabel": "The Circle's Color represents the degree (number of connected users) to each user",
+    "nodeLabel": "Each circle represents a user"
   },
   "features": {
     "search": true,
